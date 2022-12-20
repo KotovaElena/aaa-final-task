@@ -1,0 +1,23 @@
+============================= test session starts =============================
+platform win32 -- Python 3.10.7, pytest-7.2.0, pluggy-1.0.0
+rootdir: C:\Users\kotov\PycharmProjects\exam_python
+plugins: cov-4.0.0
+collected 21 items
+
+test_pizza.py .......                                                    [ 33%]
+test_pizza_cli.py ......                                                 [ 61%]
+test_pizza_menu.py ..                                                    [ 71%]
+test_pizza_processes.py ......                                           [100%]
+
+---------- coverage: platform win32, python 3.10.7-final-0 -----------
+Name                 Stmts   Miss  Cover
+----------------------------------------
+pizza.py                30      0   100%
+pizza_cli.py            26      2    92%
+pizza_menu.py           28      0   100%
+pizza_processes.py      23      0   100%
+----------------------------------------
+TOTAL                  107      2    98%
+
+
+============================= 21 passed in 0.31s ==============================
